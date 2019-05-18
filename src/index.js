@@ -14,7 +14,7 @@ import Works from './components/Works'
 ReactDOM.render(
   <React.Fragment>
     <Helmet>
-      <title>Portfolio - Daisuke Tsuji</title>
+      <title>שלום - Daniel Denenberg</title>
       <link rel="canonical" href={Frontmatters.baseUrl} />
     </Helmet>
     <Header />
