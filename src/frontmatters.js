@@ -3,21 +3,23 @@ import React from 'react';
 const Frontmatters = {
   siteName: "Unresolved",
   baseUrl: "https://yet.unresolved.xyz",
-  mainColor: "#fdce12",
+  // mainColor: "#fdce12",
+  possibleColors: ["#ff99cc", "#fdce12", "#5cd65c", "#4d79ff", ],
+  mainColor: "#ff99cc",
   accentColor: "",
   baseColor: "#333",
   motto: (
     <div>Unresolved today,<br />Solve in tomorrow.</div>
   ),
   author: {
-    name: "Daisuke Tsuji",
-    email: "dim0627@gmail.com",
-    phoneNumber: "090-5991-6692",
-    dob: new Date(1989, 1, 26),
-    roles: ["Web Developer", "SEO Analyst", ],
-    languages: ["Japanese", "English(Learning)", ],
-    mainSkills: ["Ruby", "Ruby on Rails", "ES6", "SEO", ],
-    subSkills: ["Golang", "Python", "PHP", "Elasticsearch", "Design", "Writing", ],
+    name: "Daniel Denenberg",
+    email: "dannydenenberg@gmail.com",
+    phoneNumber: "650-793-0157",
+    dob: new Date(2003, 0, 4),
+    roles: ["Student", "Musician", "Singer", "Computer Nerd", ],
+    languages: ["English", "Spanish(Communicable Understanding)", ],
+    mainSkills: ["Java", "JavaScript", "HTML", "Python", ],
+    subSkills: ["Rust", "C", "C++", "Classical Piano Performance", ],
     hiring: (
     <div>
       <p>Welcome :)</p>
@@ -25,10 +27,10 @@ const Frontmatters = {
     </div>
     ),
     social: {
-      github: "https://github.com/dim0627",
-      github_id: "dim0627",
-      twitter: "https://twitter.com/dim0627",
-      twitter_id: "dim0627",
+      github: "https://github.com/dannydenenberg",
+      github_id: "dannydenenberg",
+      twitter: "https://twitter.com/denenbergdanny",
+      twitter_id: "denenbergdanny",
       linkedin: "https://www.linkedin.com/in/daisuke-tsuji-2a379a118",
       linkedin_id: "daisuke-tsuji-2a379a118",
       facebook: "https://www.facebook.com/daisuke.tsuji.735",
@@ -155,5 +157,11 @@ const Frontmatters = {
     },
   ],
 };
+
+// set the background color to one mainColor:
+// document.body.style.backgroundColor = Frontmatters.mainColor;
+
+// set the background color to a random color in possibleColors ^:
+document.body.style.backgroundColor = Frontmatters.possibleColors[Math.floor(Math.random() * Frontmatters.possibleColors.length)];
 
 export default Frontmatters;

@@ -74,7 +74,7 @@ const WorksContainer = styled.div`
 `
 
 export default () => (
-  <Section sectionId='works' sectionTitle='Works'>
+  <Section sectionId='works' sectionTitle='Work'>
     <WorksContainer>
       {Frontmatters.works.map((k, i) => <Work key={i} {...k} />)}
     </WorksContainer>

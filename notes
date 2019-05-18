@@ -1,0 +1,3 @@
+when i first did 'sudo npm install', that doesn't just work. YOu also have to run 'sudo yarn' and then run 'npm run dev' to get it working on your computer.
+
+The random background color generation happens at the bottom of the frontmatters.js file.
