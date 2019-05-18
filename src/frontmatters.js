@@ -4,7 +4,7 @@ const Frontmatters = {
   siteName: "Danny O. D.",
   baseUrl: "https://yet.unresolved.xyz",
   // mainColor: "#fdce12",
-  possibleColors: ["#ff99cc", "#fdce12", "#5cd65c", "#0099ff", ],
+  possibleColors: ["#ff99cc", "#fdce12", "#00ccff", ],
   mainColor: "#ff99cc",
   accentColor: "",
   baseColor: "#333",
