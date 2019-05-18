@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/dim0627/yet.unresolved.xyz.svg?style=svg)](https://circleci.com/gh/dim0627/yet.unresolved.xyz)
+NOTE: This project is hosted on Netlify. If you want, give me a pull request for any typos!
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -15,3 +15,4 @@ You can find the most recent version of this guide [here](https://github.com/fac
 ## Memo
 
 * Scroll Restoration
+
