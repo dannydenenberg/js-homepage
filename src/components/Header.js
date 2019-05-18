@@ -73,7 +73,7 @@ export default () => (
       <Ops>
         <OpsItem href="/#me">Me</OpsItem>
         <OpsItem href="/#projects">Projects</OpsItem>
-        <OpsItem href="/#works">Works</OpsItem>
+        <OpsItem href="/#works">Work</OpsItem>
       </Ops>
     </Container>
   </Header>
